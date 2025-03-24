@@ -2,6 +2,7 @@
 
 ## Модель прецедентів
 <center>
+  
 ![UML Diagram](1.png)
 
 
