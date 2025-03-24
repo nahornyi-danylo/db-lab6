@@ -92,8 +92,6 @@
 
 ```plantuml
 @startuml
-
-    @startuml
 actor Guest
   actor User
   actor Manager
