@@ -9,6 +9,5 @@ Admin -> System: Select user to delete
 Admin -> System: Click "Delete User" 
 System -> System: Check permissions (InsufficientPermissionsException) 
 System -> System: Delete user 
-System -> Admin: User deleted
 @enduml
 ```
