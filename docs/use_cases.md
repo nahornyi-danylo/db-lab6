@@ -11,3 +11,4 @@ System -> System: Check permissions (InsufficientPermissionsException)
 System -> System: Delete user 
 System -> Admin: User deleted
 @enduml
+```
