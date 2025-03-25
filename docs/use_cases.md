@@ -1,6 +1,7 @@
 # Розроблення функціональних вимог до системи
 
 ## Модель прецедентів
+
 ```plantuml
 @startuml
 actor Admin
@@ -12,3 +13,6 @@ System -> System: Delete user
 System -> Admin: User deleted
 @enduml
 ```
+
+
+**Діаграма прецедентів**
