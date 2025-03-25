@@ -10,5 +10,5 @@ authors = ["Sergey Bykovets"]
 title = "Система аналізу медіа-контенту"
 
 [preprocessor.plantuml]
-plantuml-cmd = "http://www.plantuml.com/plantuml"
+plantuml-cmd = "plantuml"
 use-data-uris = true
