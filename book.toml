@@ -13,7 +13,3 @@ title = "Система аналізу медіа-контенту"
 plantuml-cmd = "http://www.plantuml.com/plantuml"
 use-data-uris = true
 
-[highlight]
-enable = true
-theme = "base16-ocean.dark"
-language-extensions = ["plantuml"]
