@@ -2,17 +2,7 @@
 
 ## Модель прецедентів
 
-```plantuml
-@startuml
-actor Admin
-control System
-Admin -> System: Select user to delete
-Admin -> System: Click "Delete User"
-System -> System: Check permissions (InsufficientPermissionsException)
-System -> System: Delete user
-System -> Admin: User deleted
-@enduml
-```
+![Діаграма](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuU8hISp9J4vLKl18pSd9ICt9oYL9KmxACt9Yj4rIoKb9oKnJoIb9oScqACf9oGMmACX9oWfmACXtW0000)
 
 
 **Діаграма прецедентів**
