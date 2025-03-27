@@ -22,6 +22,7 @@
 ![Діаграма](//www.plantuml.com/plantuml/png/NSmx2iD038JXNgSGxds5uFIf0Zw0y4vXqDf13vy_YrA4fDJm_Leyn2Ax4iaMf_6zzVtOFKp6HPIEJHmyhGxZ1ouehwycWOd5EJM_f58k-4G_hm-HDAAVhpphVAlqRxOn5rzmjEpw1W00)
 
 </center>
+
 ## Сценарії використання
 ### UserRegistration
 ---
