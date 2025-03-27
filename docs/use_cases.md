@@ -1,12 +1,27 @@
 # Розроблення функціональних вимог до системи
 
 ## Модель прецедентів
+
 ### Загальна схема
+<center>
+  
 ![Діаграма](//www.plantuml.com/plantuml/png/PP0zJWGn38LxdyBQVg-mMaHBXJG7Y18pHCeFEFPK79xWH1gKwVpvlJpRUJPnB9eJ9FeGb8eSzq_149cyn5e0d9VAk3NYMRw474jimguJW3RohX7U_YpuJlkG-jiRkeRAj5ZUwXwdbcAvYbLbghswnETwq0nUj5Sc9zGjtqfjHdXUy-cWXDjNwDOvHK-BdORh9ASCOCtx_M473KYTx8I1R5XL9gkPJx1juF_lMV_dOGDNmSBqsXtRFAa4pUaN)
+
+</center>
+
 ### Користувач
+<center>
+  
 ![Діаграма](//www.plantuml.com/plantuml/png/POyz2iCm34Ptdq9apnLAe6kdGWyW714CZaNrq_EtAXf2CZwUU9-zgA6OxxrWDHPuAKafhbHH2QP0UDBMr0IjyPW05LpeTFBWhQNhRLmbkwLbjqj-vmzb-EJkGcZqEtaxQIQgbFANiy-tUCk1OZsn1yPSiWHBmXeGeON66h__0W00)
+
+</center>
+
 ### Адміністратор
+<center>
+  
 ![Діаграма](//www.plantuml.com/plantuml/png/NSmx2iD038JXNgSGxds5uFIf0Zw0y4vXqDf13vy_YrA4fDJm_Leyn2Ax4iaMf_6zzVtOFKp6HPIEJHmyhGxZ1ouehwycWOd5EJM_f58k-4G_hm-HDAAVhpphVAlqRxOn5rzmjEpw1W00)
+
+</center>
 ## Сценарії використання
 ### UserRegistration
 ---
