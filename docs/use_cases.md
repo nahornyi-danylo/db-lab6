@@ -9,7 +9,7 @@
 
 ## Сценарії використання
 ### UserRegistration
----
+![Діаграма](//www.plantuml.com/plantuml/png/XLEzpjD04Epz52VJ8a5DeYWKALBm1ZJvnr9oZkmBeaWHOo0K4Iw8Z8HeU0CJOdwSs7c5lJTYRa-AJ7xqkJhDpExEpPxReUe5QZ6REalwh5CTwRTwitGOTPu9-agLNj4VncFQKQRNWdOwfJqLXc1eAmnlb21A4B45TboS0ofr8gYY7tI0ei095FsaIj1lokZ40-B6_O6itmE6Em5zZb4He98ojDoWVoh0P-PmlmtKS0MG2dPD1Q2AJkpOfIy0OLTlkMfbwso1Jjo6WuY-svQKqv6o9GRzZrXhw64YGeS4GzXy3dFvXKlfgv48lCah9HwDnq_nESr-Yxx1qIyws6XHZKE1EtxIQ-CVmN8ACPnzm8oa-QJVCdLkvuqNAazEdWy6_aAgJX3uWVluJB_mmX1iLuxzODPJdY-juYpeojUzgJViolb2rQYH70hZzEgkjHN37Ew9ADdjtyjD0tefQvlcHK2a8rk3LEeXGVAUOxB7net9AH9ynni-wfWNURrktWR0Ia0IuPZgZ-YOmygjnrdM7-N3B_NoT_7dJXjHuKVw1m00)
 
 |**ID:**                 | UserRegistration                                                                                                                                                                                                                                                                                                                                                                                       |
 |:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
