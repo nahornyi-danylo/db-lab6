@@ -3,6 +3,7 @@
 ## Модель прецедентів
 
 ### Загальна схема
+---
 <center>
   
 ![Діаграма](//www.plantuml.com/plantuml/png/PP0zJWGn38LxdyBQVg-mMaHBXJG7Y18pHCeFEFPK79xWH1gKwVpvlJpRUJPnB9eJ9FeGb8eSzq_149cyn5e0d9VAk3NYMRw474jimguJW3RohX7U_YpuJlkG-jiRkeRAj5ZUwXwdbcAvYbLbghswnETwq0nUj5Sc9zGjtqfjHdXUy-cWXDjNwDOvHK-BdORh9ASCOCtx_M473KYTx8I1R5XL9gkPJx1juF_lMV_dOGDNmSBqsXtRFAa4pUaN)
@@ -10,20 +11,22 @@
 </center>
 
 ### Користувач
+---
 <center>
   
-![Діаграма](//www.plantuml.com/plantuml/png/POyz2iCm34Ptdq9apnLAe6kdGWyW714CZaNrq_EtAXf2CZwUU9-zgA6OxxrWDHPuAKafhbHH2QP0UDBMr0IjyPW05LpeTFBWhQNhRLmbkwLbjqj-vmzb-EJkGcZqEtaxQIQgbFANiy-tUCk1OZsn1yPSiWHBmXeGeON66h__0W00)
+![Діаграма](//www.plantuml.com/plantuml/png/VP8zJlGm48PxdsAq_QxqRVbf5ItQbcsGgD786I9BYGSyOmGTFmLtu1I8Yeep93SYSLm4hxJTQ9udR_nQtejYqDYr1groW5N_qVyCp_tty3Ay3c_zL_yvlAy01Qw5WZ5HoA8Gh2wivUWLZkYneOwy9gj3vs_-BJIFxPCu0Rw58zKEuS1U_zZRHUhq4xYYnea6LCS-QJ5GeLnoup9hdJ-573NJSJg9x_Y1Sd313e5GQLJk8qcEi0lfmDqT1YVifqAOof4app8QaqBMxRhA5v4N8ItchZE0JRsfvkF1VzZjw579rr9L1NV-70vqbXPmfjjCROcNr3AM7-_7ONedvXS0)
 
 </center>
 
 ### Адміністратор
+---
 <center>
   
-![Діаграма](//www.plantuml.com/plantuml/png/NSmx2iD038JXNgSGxds5uFIf0Zw0y4vXqDf13vy_YrA4fDJm_Leyn2Ax4iaMf_6zzVtOFKp6HPIEJHmyhGxZ1ouehwycWOd5EJM_f58k-4G_hm-HDAAVhpphVAlqRxOn5rzmjEpw1W00)
+![Діаграма](//www.plantuml.com/plantuml/png/NS_DIWCn4C3nUvvYwBq5zoXbgNZLIw5d6RBJ4aacEX_5nzVTfQp9BV3_9PavgQ6ObnmmMXLucKhYf2PeLK9mfOXAiBie2M2CrTcW8EED2h7j01KA9lvuskpxd1FVmETBGjzEQhhHeNlsZUwKuV8reT6YFFj6bebWWMSgzRuITDd8Q-LhaeAMAaEzjb_6V_1CdnHj7gqX8X12Q5Q7VTwFZysw8eyoXB0AE4o7SHuRdk5uf1yZddGScuekNLtpiEROrIPA7yFfx-0b_m80)
 
 </center>
 
-## Сценарії використання
+
 ### UserRegistration
 ---
 
