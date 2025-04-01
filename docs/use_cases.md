@@ -74,6 +74,8 @@
 ### UserRemove
 ---
 
+![Діаграма](https://www.plantuml.com/plantuml/png/ZL9Fxz904BtlfzZKgucUBI5uuC313y5_cy2Mj8lnm46e0K-G4CF1Q8pVe2885bk-mjjlv1iQaMWmFnBQwRmtRtRUR2sspSYEXmCrmGSKxWsERkfcBi4MgLjCr0LNppJMReCTCc50iFTQY59282UGQ1JuYXC_CqPR_h-Xq3WWnHaYc_YARRwKBR37JwGJaVvCQaRMmIMK5JdtLeI5uEPkuvOFaJQXxUeewB-q-b6lzvG_LMbLyP7axpYLfzPy795HQUaMo9bmKzRBl6MdLUL9gofrNlrr4Dl0z9-ts-7Os7eKXP7t-0g_2EAOQCFqmcZOj45eIiQLq32lceEWqp2ZiRs1kgQZvQJgdk7qunEZcUIHGOpcAqV1ISLa3skEiEFad4beVtb3yCUDCzuTpwyYRiKE_vNmXJ__ivJBbd1cM6Z6Kvnft3lasDFUtx9ibRDavPSBtfFD316fIyah6qjAop9PmSwiIFwvLxwwVpd3aQhHKbxWNm00)
+
 | **ID:**     | UserRemove                                                                                                                                                                                                                                                                                                                                    |
 |:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **НАЗВА:**             | Видалення облікового запису                                                                                                                                                                                                                                                                                                           |
