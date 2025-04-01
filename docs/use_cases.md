@@ -89,6 +89,8 @@
 ### UserCreateRequest
 ---
 
+![Діаграма](https://www.plantuml.com/plantuml/png/hLDDJZ914DttAJhp7U1pBOImqOGD9t0Z0TH4fyqux5Zme-32E8aXip0QmmtQ4HI16QzGTIDVzIWXAWiJIGZLzQfUl_UOAP-5-q7OEZbMRRgbZ3iquoxtk4y9MHwsbSFLjgPxd7k2qXpLIECdfOpUQCvzxT4OO98Jo9Yc5x80SV0A2kJZd9Ycj2JR5i8Rcia6JMI8hpIb03Dwv0kEqKmvrY38QC4H67mJDdHmT70Owd_DvXO-gbWhqHq6dcdXgAoc1CKS6zSyf1GDg9qvDvO777DK_5yhoPvNDHL_9mXCuBbMmwzhkK5jYi7fNLUBmdven7IsvhVm-xGsHVH0K-xWd41xXoFmO2j1Ou9lAjUlTFnzH1M_QQect3Kjl_vZL12uyW6wqTSC1j1rBY0jkUyo-9uisSy0CT956VEbF0YGjOeejnhj-MiN84NWifn795OSaSNI8e_g5SQVmEniIeKGCi0fbXszw8w1uZyfgCqlW3bLPRZ6I_8E)
+
 | **ID:**     | UserCreateRequest                                                                                                                                                                                                                                                                                                                                    |
 |:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **НАЗВА:**             | Створення запиту для аналізу медіа-контенту                                                                                                                                                                                                                                                                                                         |
