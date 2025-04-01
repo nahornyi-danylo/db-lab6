@@ -57,6 +57,8 @@
 ### UserLogout
 ---
 
+![Діаграма](https://www.plantuml.com/plantuml/uml/XLBFZj9m4Bx_dc9IpyQx9OIB1o--WqIY9aXDhJ4c72XLu60WCGOJemVVeClI1Gejh_3ztcY_ZsQp1vRieSdqDpFVdvdfV4fUnydd3tqtn1_KVeIjJ_tOPrWXzzEXE-NTSyDFlyGQfIgWt2zJeLgOg9Z833MkiETloMZ5xngrOOCSHmWs2nrf_ZSKA710FZn1Gv0ruRUa_c42zDy4hH8_yKi_VnpS4JDlUkLWH0y7abHytXhMx5qO4GLJDsyRGqNgG-Wkk9UuVup6UYUnNADaKqrIEGuWxJiL11VC_KPEj89wPZvJ_r7q_AQeYE1Jvb8v3DqWIdeMlt_xBh4dNtlzVlJ5jRfj_2NT3VRDt0qh1YNTp8KWnoavfRcPrABrhDjMN_0gUZbu4STH7EZ9djf37ZM2mgHHefJbJ6lbKCcQwmtUc8J9o-H-BusNyXnG4e-Qix4aPRZqimRA9Dr_rnrfLwhJN538XdgaGciIykvkmxAe27l9qipE3Yzqbwyt-kWwjC0BlmK0)
+
 | **ID:**     | UserLogout                                                                                                                                                                                                                                                                                                                                    |
 |:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **НАЗВА:**             | Вихід з облікового запису                                                                                                                                                                                                                                                                                                           |
