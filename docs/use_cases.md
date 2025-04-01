@@ -6,7 +6,7 @@
 ---
 <center>
   
-![Діаграма](https://www.plantuml.com/plantuml/png/PP0zJWGn38LxdyBQVg-mMaHBXJG7Y18pHCeFEFPK79xWH1gKwVpvlJpRUJPnB9eJ9FeGb8eSzq_149cyn5e0d9VAk3NYMRw474jimguJW3RohX7U_YpuJlkG-jiRkeRAj5ZUwXwdbcAvYbLbghswnETwq0nUj5Sc9zGjtqfjHdXUy-cWXDjNwDOvHK-BdORh9ASCOCtx_M473KYTx8I1R5XL9gkPJx1juF_lMV_dOGDNmSBqsXtRFAa4pUaN)
+![Діаграма](//www.plantuml.com/plantuml/png/PP0zJWGn38LxdyBQVg-mMaHBXJG7Y18pHCeFEFPK79xWH1gKwVpvlJpRUJPnB9eJ9FeGb8eSzq_149cyn5e0d9VAk3NYMRw474jimguJW3RohX7U_YpuJlkG-jiRkeRAj5ZUwXwdbcAvYbLbghswnETwq0nUj5Sc9zGjtqfjHdXUy-cWXDjNwDOvHK-BdORh9ASCOCtx_M473KYTx8I1R5XL9gkPJx1juF_lMV_dOGDNmSBqsXtRFAa4pUaN)
 
 </center>
 
@@ -14,7 +14,7 @@
 ---
 <center>
   
-![Діаграма](https://www.plantuml.com/plantuml/png/VP8zJlGm48PxdsAq_QxqRVbf5ItQbcsGgD786I9BYGSyOmGTFmLtu1I8Yeep93SYSLm4hxJTQ9udR_nQtejYqDYr1groW5N_qVyCp_tty3Ay3c_zL_yvlAy01Qw5WZ5HoA8Gh2wivUWLZkYneOwy9gj3vs_-BJIFxPCu0Rw58zKEuS1U_zZRHUhq4xYYnea6LCS-QJ5GeLnoup9hdJ-573NJSJg9x_Y1Sd313e5GQLJk8qcEi0lfmDqT1YVifqAOof4app8QaqBMxRhA5v4N8ItchZE0JRsfvkF1VzZjw579rr9L1NV-70vqbXPmfjjCROcNr3AM7-_7ONedvXS0)
+![Діаграма](//www.plantuml.com/plantuml/png/VP8zJlGm48PxdsAq_QxqRVbf5ItQbcsGgD786I9BYGSyOmGTFmLtu1I8Yeep93SYSLm4hxJTQ9udR_nQtejYqDYr1groW5N_qVyCp_tty3Ay3c_zL_yvlAy01Qw5WZ5HoA8Gh2wivUWLZkYneOwy9gj3vs_-BJIFxPCu0Rw58zKEuS1U_zZRHUhq4xYYnea6LCS-QJ5GeLnoup9hdJ-573NJSJg9x_Y1Sd313e5GQLJk8qcEi0lfmDqT1YVifqAOof4app8QaqBMxRhA5v4N8ItchZE0JRsfvkF1VzZjw579rr9L1NV-70vqbXPmfjjCROcNr3AM7-_7ONedvXS0)
 
 </center>
 
@@ -22,14 +22,14 @@
 ---
 <center>
   
-![Діаграма](https://www.plantuml.com/plantuml/png/NS_DIWCn4C3nUvvYwBq5zoXbgNZLIw5d6RBJ4aacEX_5nzVTfQp9BV3_9PavgQ6ObnmmMXLucKhYf2PeLK9mfOXAiBie2M2CrTcW8EED2h7j01KA9lvuskpxd1FVmETBGjzEQhhHeNlsZUwKuV8reT6YFFj6bebWWMSgzRuITDd8Q-LhaeAMAaEzjb_6V_1CdnHj7gqX8X12Q5Q7VTwFZysw8eyoXB0AE4o7SHuRdk5uf1yZddGScuekNLtpiEROrIPA7yFfx-0b_m80)
+![Діаграма](//www.plantuml.com/plantuml/png/NS_DIWCn4C3nUvvYwBq5zoXbgNZLIw5d6RBJ4aacEX_5nzVTfQp9BV3_9PavgQ6ObnmmMXLucKhYf2PeLK9mfOXAiBie2M2CrTcW8EED2h7j01KA9lvuskpxd1FVmETBGjzEQhhHeNlsZUwKuV8reT6YFFj6bebWWMSgzRuITDd8Q-LhaeAMAaEzjb_6V_1CdnHj7gqX8X12Q5Q7VTwFZysw8eyoXB0AE4o7SHuRdk5uf1yZddGScuekNLtpiEROrIPA7yFfx-0b_m80)
 
 </center>
 
 
 ### UserRegistration
 ---
-![Діаграма](https://www.plantuml.com/plantuml/uml/XLFDxj904B_tAJRrQg9d8GGF73Zu1bxujWbiIRiO3nme5V10R698JOp6y0QrKiL2oolClf6_QPKqAFd3PNPcVXypksswgkEesMHipEaJvNf1H-tffVOffaXlvaPHDvu9-g13Eb3A7KLj9xYH8IXaAFXb8kOK9KXbEX2KqpSweID5X19zfrpGJuheKYZvDGFA-r8Lg3D5yq8DAcY7uX5kjW9q2NFf5Ti0TIZ0a8Cw0CCTxynJPM580hyUKXb506zBfWCE26gC-0BiafaeBQQa5Bqva3oXIH-HN81bnrBWAiK0m3amxqppbMLnZdK8IC2iCVu9X9CR1z9M0-5OerTAF1eEd-9drBiD-amv_Q1JkNkW4QJm_rvlU19i7fgO75RMq0ZgJxeDnfcjDvQhB3bwtklPCwbQZcCxvkDh-ONbkgYsvT1s9XrbsRBik3QqvUlEsEgtvNIcAgM1x0jsoiFj_ruwt60mNXRR-tLxzqYzb9MxvzP80EYL6AoXkXMqhFxiXSCQIwsnexSiHMVjirZwxxKpvmN9NA35GnZgTw18eFs_zvbLt-N3Z_N-Ps9FZIRMWa_fDm00)
+![Діаграма](//www.plantuml.com/plantuml/uml/XLFDxj904B_tAJRrQg9d8GGF73Zu1bxujWbiIRiO3nme5V10R698JOp6y0QrKiL2oolClf6_QPKqAFd3PNPcVXypksswgkEesMHipEaJvNf1H-tffVOffaXlvaPHDvu9-g13Eb3A7KLj9xYH8IXaAFXb8kOK9KXbEX2KqpSweID5X19zfrpGJuheKYZvDGFA-r8Lg3D5yq8DAcY7uX5kjW9q2NFf5Ti0TIZ0a8Cw0CCTxynJPM580hyUKXb506zBfWCE26gC-0BiafaeBQQa5Bqva3oXIH-HN81bnrBWAiK0m3amxqppbMLnZdK8IC2iCVu9X9CR1z9M0-5OerTAF1eEd-9drBiD-amv_Q1JkNkW4QJm_rvlU19i7fgO75RMq0ZgJxeDnfcjDvQhB3bwtklPCwbQZcCxvkDh-ONbkgYsvT1s9XrbsRBik3QqvUlEsEgtvNIcAgM1x0jsoiFj_ruwt60mNXRR-tLxzqYzb9MxvzP80EYL6AoXkXMqhFxiXSCQIwsnexSiHMVjirZwxxKpvmN9NA35GnZgTw18eFs_zvbLt-N3Z_N-Ps9FZIRMWa_fDm00)
 
 |**ID:**                 | UserRegistration                                                                                                                                                                                                                                                                                                                                                                                       |
 |:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@
 ---
 ### UserLogin
 ---
-![Діаграма](https://www.plantuml.com/plantuml/png/TLFDpj9G4DtVfxYf6rtfsduXkD34nF04RkG79P7MbB9ZGQa22mB6Q4sCnXXVu5f1i51uXPatyinWOXE11BYTSyxCcRdJ-Y1-5iN3_aipeazqv37jEE49fvIJuzd8A6xkMth76Qsf48PYxwqGHGAW191Qu7jUMNAK2wBKBQXJplYZRr3YspazRUX0RgHfDTqHqXtABYoL08_qWzzelP8pIoS4aDWtrqngdceMI3OmbY1KaeDuePc0EptSfW-qHw42xB6IGDD2FES9ZlZHPwSmz7TygVA5711Kfq97WByI-4dRz-Wx6i_ejr2yA_r-5MDu1X46Lv8Zfno1DRvLZxu9mhXZezxp5x6zrUtUmyVSD6lq6GL_mRrU0zGu572uv9asmOdE8FqxzzNDtMPDTDxZe1ismlXHE0pQ3wCeZ3o1h6ADy46h1I3-1sWSqSvWyAJNxrMHJj2sOaxwULkzQqvr9lzV4JaTtnIDlLRqSAQUPBmMvmJ7ZEV0qylxizGhUHf0SvwWDAjwiD6-JXAX2rk9RG8X4r-w93zHahQYLfEfRwulV_ZArD4kNf0_)
+![Діаграма](//www.plantuml.com/plantuml/png/TLFDpj9G4DtVfxYf6rtfsduXkD34nF04RkG79P7MbB9ZGQa22mB6Q4sCnXXVu5f1i51uXPatyinWOXE11BYTSyxCcRdJ-Y1-5iN3_aipeazqv37jEE49fvIJuzd8A6xkMth76Qsf48PYxwqGHGAW191Qu7jUMNAK2wBKBQXJplYZRr3YspazRUX0RgHfDTqHqXtABYoL08_qWzzelP8pIoS4aDWtrqngdceMI3OmbY1KaeDuePc0EptSfW-qHw42xB6IGDD2FES9ZlZHPwSmz7TygVA5711Kfq97WByI-4dRz-Wx6i_ejr2yA_r-5MDu1X46Lv8Zfno1DRvLZxu9mhXZezxp5x6zrUtUmyVSD6lq6GL_mRrU0zGu572uv9asmOdE8FqxzzNDtMPDTDxZe1ismlXHE0pQ3wCeZ3o1h6ADy46h1I3-1sWSqSvWyAJNxrMHJj2sOaxwULkzQqvr9lzV4JaTtnIDlLRqSAQUPBmMvmJ7ZEV0qylxizGhUHf0SvwWDAjwiD6-JXAX2rk9RG8X4r-w93zHahQYLfEfRwulV_ZArD4kNf0_)
 
 | **ID:**     | UserLogin                                                                                                                                                                                                                                                                                                                                  |
 |:------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@
 ### UserLogout
 ---
 
-![Діаграма](https://www.plantuml.com/plantuml/png/XL9DJi906DtFAIRr0Ew543Okt7W72KHDb9fIToo0Ah0ma1Y3YT65DwWeKbfeh_1zD_AzQOmBqhYOzEltyxxttaop5vu5uUtrbUdBY-Gwa4I7Ej98bXBhf6zStHnPUTI5V4dA3bTxicpa20ex528hkNn8XjyKqHBdKt8hQucbSB1HpM3DUxb2LhALkE-W7MGE-0Ih7om1zOxGRD6nBdJsFxW1PbpEKi406hPOiaCwiS3ET6w1I9YypAqjY2Uo1QqAzI3tXcZ4lAHEDJuxW1HEiUUuRzZWLOXxbXXeA_2PQiJvWkjn9g0MmKJKXbHOCrq_xDZWylmYj0T1fstghOQyOjUtPANfLfO8KaYPSLnYZYUES6dJl7xOQd3EE_LFkiT1u0SUKzPqkcrBV58Q_zbRKahtjNDPGRiiMeO85pfrRcqS2RtdSw3bxACyMP4GPoYORXDvytjH9Cj8CbuVfU-zd-fhw8N-ZMb20Xxg3m00)
+![Діаграма](//www.plantuml.com/plantuml/png/XL9DJi906DtFAIRr0Ew543Okt7W72KHDb9fIToo0Ah0ma1Y3YT65DwWeKbfeh_1zD_AzQOmBqhYOzEltyxxttaop5vu5uUtrbUdBY-Gwa4I7Ej98bXBhf6zStHnPUTI5V4dA3bTxicpa20ex528hkNn8XjyKqHBdKt8hQucbSB1HpM3DUxb2LhALkE-W7MGE-0Ih7om1zOxGRD6nBdJsFxW1PbpEKi406hPOiaCwiS3ET6w1I9YypAqjY2Uo1QqAzI3tXcZ4lAHEDJuxW1HEiUUuRzZWLOXxbXXeA_2PQiJvWkjn9g0MmKJKXbHOCrq_xDZWylmYj0T1fstghOQyOjUtPANfLfO8KaYPSLnYZYUES6dJl7xOQd3EE_LFkiT1u0SUKzPqkcrBV58Q_zbRKahtjNDPGRiiMeO85pfrRcqS2RtdSw3bxACyMP4GPoYORXDvytjH9Cj8CbuVfU-zd-fhw8N-ZMb20Xxg3m00)
 
 | **ID:**     | UserLogout                                                                                                                                                                                                                                                                                                                                    |
 |:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@
 ### UserRemove
 ---
 
-![Діаграма](https://www.plantuml.com/plantuml/png/ZL9Fxz904BtlfzZKgucUBI5uuC313y5_cy2Mj8lnm46e0K-G4CF1Q8pVe2885bk-mjjlv1iQaMWmFnBQwRmtRtRUR2sspSYEXmCrmGSKxWsERkfcBi4MgLjCr0LNppJMReCTCc50iFTQY59282UGQ1JuYXC_CqPR_h-Xq3WWnHaYc_YARRwKBR37JwGJaVvCQaRMmIMK5JdtLeI5uEPkuvOFaJQXxUeewB-q-b6lzvG_LMbLyP7axpYLfzPy795HQUaMo9bmKzRBl6MdLUL9gofrNlrr4Dl0z9-ts-7Os7eKXP7t-0g_2EAOQCFqmcZOj45eIiQLq32lceEWqp2ZiRs1kgQZvQJgdk7qunEZcUIHGOpcAqV1ISLa3skEiEFad4beVtb3yCUDCzuTpwyYRiKE_vNmXJ__ivJBbd1cM6Z6Kvnft3lasDFUtx9ibRDavPSBtfFD316fIyah6qjAop9PmSwiIFwvLxwwVpd3aQhHKbxWNm00)
+![Діаграма](//www.plantuml.com/plantuml/png/ZL9Fxz904BtlfzZKgucUBI5uuC313y5_cy2Mj8lnm46e0K-G4CF1Q8pVe2885bk-mjjlv1iQaMWmFnBQwRmtRtRUR2sspSYEXmCrmGSKxWsERkfcBi4MgLjCr0LNppJMReCTCc50iFTQY59282UGQ1JuYXC_CqPR_h-Xq3WWnHaYc_YARRwKBR37JwGJaVvCQaRMmIMK5JdtLeI5uEPkuvOFaJQXxUeewB-q-b6lzvG_LMbLyP7axpYLfzPy795HQUaMo9bmKzRBl6MdLUL9gofrNlrr4Dl0z9-ts-7Os7eKXP7t-0g_2EAOQCFqmcZOj45eIiQLq32lceEWqp2ZiRs1kgQZvQJgdk7qunEZcUIHGOpcAqV1ISLa3skEiEFad4beVtb3yCUDCzuTpwyYRiKE_vNmXJ__ivJBbd1cM6Z6Kvnft3lasDFUtx9ibRDavPSBtfFD316fIyah6qjAop9PmSwiIFwvLxwwVpd3aQhHKbxWNm00)
 
 | **ID:**     | UserRemove                                                                                                                                                                                                                                                                                                                                    |
 |:------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
