@@ -19,5 +19,6 @@
 ### Реляційна схема
 ---
 <center>
-![Діаграма](https://github.com/user-attachments/assets/e90c827f-0d96-4356-964b-68fa891e0b8f)
+![Діаграма](2.png)
+
 </center>
