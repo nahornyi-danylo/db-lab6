@@ -203,6 +203,8 @@ USE `mydb`;
 INSERT INTO `UserMessage` (`id`, `text`, `time`, `RequestConfirmation_id`, `RequestConfirmation_Client_id`) VALUES (DEFAULT, 'Access granted, check your email.', '2025-05-01 11:05:00', 1, 2),
 INSERT INTO `UserMessage` (`id`, `text`, `time`, `RequestConfirmation_id`, `RequestConfirmation_Client_id`) VALUES (DEFAULT, 'We are investigating the issue.', '2025-05-02 15:10:00', 2, 3);
 
+COMMIT;
+
 ```
 
 ## RESTfull сервіс для управління даними
