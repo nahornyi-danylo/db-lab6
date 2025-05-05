@@ -142,6 +142,67 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+-- -----------------------------------------------------
+-- Data for table `mydb`.`Role`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `Role` (`id`, `name`, `permission`, `description`) VALUES (DEFAULT, 'Admin', 'ALL', 'Administrator role with all permissions'),
+INSERT INTO `Role` (`id`, `name`, `permission`, `description`) VALUES (DEFAULT, 'User', 'LIMITED', 'Standard user with limited permissions'),
+INSERT INTO `Role` (`id`, `name`, `permission`, `description`) VALUES (DEFAULT, 'Manager', 'MEDIUM', 'Manager role with moderate permissions');
+
+COMMIT;
+
+-- -----------------------------------------------------
+-- Data for table `mydb`.`Client`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `Client` (`id`, `name`, `mail`, `password`, `Role_id`) VALUES (DEFAULT, 'John Doe', 'john@example.com', 'pass1234', 1),
+INSERT INTO `Client` (`id`, `name`, `mail`, `password`, `Role_id`) VALUES (DEFAULT, 'Jane Smith', 'jane@example.com', 'securepass', 2),
+INSERT INTO `Client` (`id`, `name`, `mail`, `password`, `Role_id`) VALUES (DEFAULT, 'Bob Johnson', 'bob@example.com', '12345abc', 3);
+
+COMMIT;
+
+-- -----------------------------------------------------
+--Data for table `mydb`.`Task`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `Task` (`id`, `name`, `deadline`, `Client_id`) VALUES (DEFAULT, 'Complete project plan', '2025-05-20 17:00:00', 1),
+INSERT INTO `Task` (`id`, `name`, `deadline`, `Client_id`) VALUES (DEFAULT, 'Update profile', '2025-05-10 12:00:00', 2),
+INSERT INTO `Task` (`id`, `name`, `deadline`, `Client_id`) VALUES (DEFAULT, 'Conduct meeting', '2025-05-15 09:00:00', 3);
+
+COMMIT;
+
+-- -----------------------------------------------------
+--Data for table `mydb`.`Request`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `Request` (`id`, `name`, `time`, `description`, `Client_id`) VALUES (DEFAULT, 'Access request', '2025-05-01 10:00:00', 'Requesting access to reports', 2),
+INSERT INTO `Request` (`id`, `name`, `time`, `description`, `Client_id`) VALUES (DEFAULT, 'Support ticket', '2025-05-02 14:30:00', 'System is not responding', 3);
+
+COMMIT;
+
+-- -----------------------------------------------------
+--Data for table `mydb`.`RequestConfirmation`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `RequestConfirmation` (`id`, `answer`, `time`, `Client_id`) VALUES (DEFAULT, 1, '2025-05-01 11:00:00', 2),
+INSERT INTO `RequestConfirmation` (`id`, `answer`, `time`, `Client_id`) VALUES (DEFAULT, 0, '2025-05-02 15:00:00', 3);
+
+COMMIT;
+-- -----------------------------------------------------
+-- Data for table `mydb`.`UserMessage`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `UserMessage` (`id`, `text`, `time`, `RequestConfirmation_id`, `RequestConfirmation_Client_id`) VALUES (DEFAULT, 'Access granted, check your email.', '2025-05-01 11:05:00', 1, 2),
+INSERT INTO `UserMessage` (`id`, `text`, `time`, `RequestConfirmation_id`, `RequestConfirmation_Client_id`) VALUES (DEFAULT, 'We are investigating the issue.', '2025-05-02 15:10:00', 2, 3);
+
 ```
 
 ## RESTfull сервіс для управління даними
