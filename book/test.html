@@ -167,7 +167,163 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="Тестування-працездатності-системи"><a class="header" href="#Тестування-працездатності-системи">Тестування працездатності системи</a></h1>
-<p><em>В цьому розділі необхідно вказати засоби тестування, навести вихідні коди тестів та результати тестування.</em></p>
+<p>Код для тесту має наступний вигляд:</p>
+<pre><code class="language-java">package db;
+
+import db.dao.*;
+import db.model.*;
+
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Optional;
+
+public class Test {
+
+  public static void main(String[] args) {
+    try {
+      RoleDAO roleDAO = new RoleDAO();
+      ClientDAO clientDAO = new ClientDAO();
+      TaskDAO taskDAO = new TaskDAO();
+      RequestDAO requestDAO = new RequestDAO();
+      RequestConfirmationDAO rcDAO = new RequestConfirmationDAO();
+      UserMessageDAO userMessageDAO = new UserMessageDAO();
+
+      // Role
+      System.out.println("=== Role ===");
+      Role r1 = new Role(null, "Tester", "LIMITED", "Test role");
+      Long r1Id = roleDAO.create(r1);
+      System.out.println("Created Role, id = " + r1Id);
+
+      Optional&lt;Role&gt; maybeR = roleDAO.findById(r1Id);
+      maybeR.ifPresent(r -&gt; System.out.println("Found Role: " + r));
+
+      List&lt;Role&gt; allRoles = roleDAO.findAll();
+      System.out.println("All Roles:");
+      allRoles.forEach(System.out::println);
+
+      r1.setId(r1Id);
+      r1.setDescription("Updated description for Tester");
+      boolean roleUpdated = roleDAO.update(r1);
+      System.out.println("Role updated? " + roleUpdated);
+      roleDAO.findById(r1Id).ifPresent(r -&gt; System.out.println("After update: " + r));
+
+      boolean roleDeleted = roleDAO.delete(r1Id);
+      System.out.println("Role deleted? " + roleDeleted);
+      System.out.println("Role still exists? " + roleDAO.findById(r1Id).isPresent());
+      System.out.println();
+
+      // Client
+      System.out.println("=== Client ===");
+      // Створимо роль для клієнта
+      Role baseRole = new Role(null, "BaseRole", "LIMITED", "Base role");
+      Long baseRoleId = roleDAO.create(baseRole);
+
+      Client c1 = new Client(null, "Nahornyi Danylo", "coolEmail@example.com", "12344321", baseRoleId);
+      Long c1Id = clientDAO.create(c1);
+      System.out.println("Created Client, id = " + c1Id);
+
+      Optional&lt;Client&gt; maybeClient = clientDAO.findById(c1Id);
+      maybeClient.ifPresent(c -&gt; System.out.println("Found Client: " + c));
+
+      List&lt;Client&gt; allClients = clientDAO.findAll();
+      System.out.println("All Clients:");
+      allClients.forEach(System.out::println);
+
+      // Оновимо клієнта
+      c1.setId(c1Id);
+      c1.setMail("newCoolEmail@example.com");
+      boolean clientUpdated = clientDAO.update(c1);
+      System.out.println("Client updated? " + clientUpdated);
+      clientDAO.findById(c1Id).ifPresent(c -&gt; System.out.println("After update: " + c));
+
+      // Task
+      System.out.println("=== Task ===");
+      LocalDateTime dl = LocalDateTime.now().plusDays(2);
+      Task t1 = new Task(null, "Finish lab 6", dl, c1Id);
+      Long t1Id = taskDAO.create(t1);
+      System.out.println("Created Task, id = " + t1Id);
+
+      Task t2 = new Task(null, "Push to git", dl, c1Id);
+      Long t2Id = taskDAO.create(t2);
+      System.out.println("Created Task, id = " + t2Id);
+
+      Optional&lt;Task&gt; maybeTask1 = taskDAO.findById(t1Id);
+      maybeTask1.ifPresent(t -&gt; System.out.println("Found Task: " + t));
+      Optional&lt;Task&gt; maybeTask2 = taskDAO.findById(t2Id);
+      maybeTask2.ifPresent(t -&gt; System.out.println("Found Task: " + t));
+
+      List&lt;Task&gt; allTasks = taskDAO.findAll();
+      System.out.println("All Tasks:");
+      allTasks.forEach(System.out::println);
+
+      // Змінимо назву завдання
+      t1.setId(t1Id);
+      t1.setName("Finish lab 6 FASTER");
+      boolean taskUpdated = taskDAO.update(t1);
+      System.out.println("Task updated? " + taskUpdated);
+      taskDAO.findById(t1Id).ifPresent(t -&gt; System.out.println("After update: " + t));
+
+      // Request
+      System.out.println("=== Request ===");
+      LocalDateTime rt = LocalDateTime.now();
+      Request req1 = new Request(null, "Help needed", rt, "Need help with lab 6", c1Id);
+      Long req1Id = requestDAO.create(req1);
+      System.out.println("Created Request, id = " + req1Id);
+
+      Optional&lt;Request&gt; maybeReq = requestDAO.findById(req1Id);
+      maybeReq.ifPresent(r -&gt; System.out.println("Found Request: " + r));
+
+      List&lt;Request&gt; allRequests = requestDAO.findAll();
+      System.out.println("All Requests:");
+      allRequests.forEach(System.out::println);
+
+      // RequestConfirmation
+      System.out.println("=== RequestConfirmation ===");
+      LocalDateTime rct = LocalDateTime.now().plusHours(1);
+      RequestConfirmation rc1 = new RequestConfirmation(null, true, rct, c1Id);
+      Long rc1Id = rcDAO.create(rc1);
+      System.out.println("Created RequestConfirmation, id = " + rc1Id);
+
+      Optional&lt;RequestConfirmation&gt; maybeRc = rcDAO.findById(rc1Id);
+      maybeRc.ifPresent(rc -&gt; System.out.println("Found RequestConfirmation: " + rc));
+
+      List&lt;RequestConfirmation&gt; allRC = rcDAO.findAll();
+      System.out.println("All RequestConfirmations:");
+      allRC.forEach(System.out::println);
+
+      System.out.println("=== UserMessage ===");
+      LocalDateTime umt = LocalDateTime.now().plusMinutes(5);
+
+      UserMessage um1 = new UserMessage(null, "Your request is approved!", umt, rc1Id, c1Id);
+      Long um1Id = userMessageDAO.create(um1);
+      System.out.println("Created UserMessage, id = " + um1Id);
+
+      Optional&lt;UserMessage&gt; maybeUm = userMessageDAO.findById(um1Id);
+      maybeUm.ifPresent(um -&gt; System.out.println("Found UserMessage: " + um));
+
+      List&lt;UserMessage&gt; allUM = userMessageDAO.findAll();
+      System.out.println("All UserMessages:");
+      allUM.forEach(System.out::println);
+
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+}
+</code></pre>
+<p>Результати виконання:</p>
+<p>Створено, змінено, та видалено нову роль:
+<img src="roletest.jpg" alt="Скріншот" /></p>
+<p>Створено нову роль, та клієнта з нею; Змінено пошту клієнта:
+<img src="clienttest.jpg" alt="Скріншот" /></p>
+<p>Створено 2 задачі, у одної змінено назву:
+<img src="tasktest.jpg" alt="Скріншот" /></p>
+<p>Створено новий запит:
+<img src="requesttest.jpg" alt="Скріншот" /></p>
+<p>Створено підтвердження для цього запиту:
+<img src="requestconfirmationtest.jpg" alt="Скріншот" /></p>
+<p>Створено повідомлення:
+<img src="usermessagetest.jpg" alt="Скріншот" /></p>
 
                     </main>
 
@@ -198,6 +354,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
